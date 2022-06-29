@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_listing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:cardCornerRadius="10dp">
+
+        <LinearLayout
+            android:id="@+id/layoutListing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="60dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/item_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="User name"
+                android:textSize="16sp"
+                android:fontFamily="@font/plutosanscondregular"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/item_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="3dp"
+                android:hint="Email id"
+                android:textSize="16sp"
+                android:fontFamily="@font/plutosanscondregular"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/item_firstname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="3dp"
+                android:hint="First Name"
+                android:textSize="16sp"
+                android:fontFamily="@font/plutosanscondregular"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/item_lastname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="3dp"
+                android:hint="Last Name"
+                android:textSize="16sp"
+                android:fontFamily="@font/plutosanscondregular"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/item_gender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="3dp"
+                android:hint="Gender"
+                android:textSize="16sp"
+                android:fontFamily="@font/plutosanscondregular"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/item_grade"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="3dp"
+                android:hint="--"
+                android:textSize="16sp"
+                android:fontFamily="@font/plutosanscondregular"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/item_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="3dp"
+                android:hint="Password"
+                android:textSize="16sp"
+                android:fontFamily="@font/plutosanscondregular"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/item_asa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="3dp"
+                android:hint="asa"
+                android:textSize="16sp"
+                android:fontFamily="@font/plutosanscondregular"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/delete"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="right|center"
+            android:layout_marginRight="10dp"
+            android:padding="5dp"
+            android:src="@drawable/ic_baseline_delete" />
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

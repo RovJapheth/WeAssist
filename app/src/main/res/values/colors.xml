@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#00bfff</color>
+    <color name="colorPrimaryDark">#1e90ff</color>
+    <color name="colorAccent">#87CEEB</color>
+
+
+
+    <color name="btncolor">#FA0A6CAE</color>
+
+    <!--    <color name="app_blue">#111111</color>-->
+    <color name="app_blue">#006AC7</color>
+    <color name="darkred">#BB0628</color>
+    <color name="black_text">#202020</color>
+    <color name="black_title">#7a869a</color>
+    <color name="yellow">#F9C848</color>
+    <color name="transperent">#00000000</color>
+    <color name="grey">#7D7D7D</color>
+    <color name="greyIcon">#9D9D9D</color>
+    <color name="lightGrey">#ededed</color>
+    <color name="lgrey">#F0F0F0</color>
+    <color name="textGrey">#686868</color>
+    <color name="red">#F07677</color>
+    <color name="green">#74AF46</color>
+    <color name="green1">#62D473</color>
+    <color name="filter_grey">#bababa</color>
+
+
+    <color name="colorBlue">#F4F7FA</color>
+    <color name="lightBlue">#F8F8F8</color>
+    <color name="homebgcolor">#FBF9F9</color>
+
+</resources>

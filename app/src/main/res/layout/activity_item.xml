@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_listing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:cardCornerRadius="10dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_profile"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center|left"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/announcement"
+            tools:src="@android:color/darker_gray" />
+
+        <LinearLayout
+            android:id="@+id/layoutListing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="80dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/item_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:hint="@string/title"
+                android:fontFamily="@font/plutosanscondbold"
+                android:textSize="16sp"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/item_who"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="3dp"
+                android:hint="--"
+                android:fontFamily="@font/plutosanscondregular"
+                android:textColor="@color/textGrey"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:id="@+id/item_what"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="3dp"
+                android:hint="--"
+                android:fontFamily="@font/plutosanscondregular"
+                android:textColor="@color/textGrey"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:id="@+id/item_when"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="3dp"
+                android:hint="--"
+                android:fontFamily="@font/plutosanscondregular"
+                android:textColor="@color/textGrey"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:id="@+id/item_where"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="3dp"
+                android:hint="--"
+                android:fontFamily="@font/plutosanscondregular"
+                android:textColor="@color/textGrey"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:id="@+id/expireTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/plutosanscondregular"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="3dp" />
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="right"
+                android:gravity="center"
+                android:layout_marginRight="10dp"
+                android:fontFamily="@font/plutosanscondregular"
+                android:hint="01/11/2011" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
+
+

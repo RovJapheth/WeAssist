@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">WeAssist</string>
+    <string name="title">Title</string>
+    <string name="info">Who</string>
+    <string name="time">Time</string>
+    <string name="btnSubmit">submit</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_delete">Delete</string>
+    <string name="title_activity_admin_select">AdminSelectActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="studentname">Student Name</string>
+    <string name="studentemaild">Student Emialid</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>
